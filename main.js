@@ -15,7 +15,7 @@ function simpleDemo() {
     pc2.port.attach(cable1);
     
     pc1.transmitLayer2(pc2.macAddress, "Hi PC2, I'm PC1");
-    pc2.transmitLayer2("FC:AA:AA:12:34:56", "Hi PC1, I'm PC2")
+    pc2.transmitLayer2("FC:AA:AA:12:34:56", "Hi PC1, I'm PC2");
 }
 
 function notSoSimpleDemo() {
