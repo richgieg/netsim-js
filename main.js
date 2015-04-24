@@ -48,4 +48,4 @@ function notSoSimpleDemo() {
     pc1.transmitLayer2(pc3.macAddress, "hi multiverse");  
 }
 
-simpleDemo();
+notSoSimpleDemo();
